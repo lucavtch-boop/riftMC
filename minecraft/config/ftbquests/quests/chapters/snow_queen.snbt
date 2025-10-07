@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "snow_queen"
+	group: "147BCC52AEA45547"
+	id: "52182D3427A8D50E"
+	order_index: 10
+	quest_links: [ ]
+	quests: [ ]
+	title: "Snow Queen"
+}

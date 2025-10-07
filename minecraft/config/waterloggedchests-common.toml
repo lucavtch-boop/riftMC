@@ -1,0 +1,38 @@
+
+["Waterlogged Chest Settings"]
+	#Range: 0.0 ~ 1.0
+	"Percent Chance to fish up a Waterlogged Chest without Luck of the Sea" = 0.02
+	#Range: 0.0 ~ 1.0
+	"Percent Chance Increase for each level of Luck of the Sea" = 0.02
+	#Select which loot table the Waterlogged Chest will pull from. 0 = CUSTOM LOOT TABLE 1 = Waterlogged Chests, 2 = Simple Dungeon, 3 = End City Treasure, 4 = Shipwreck Treasure, 5 = Abandoned Mineshaft
+	#Range: 0 ~ 5
+	"Chest Loot Table" = 1
+	#If using a Custom Loot Table, be sure to put the location of the table below. If the chest is empty, the location is not correct
+	"CUSTOM LOOT TABLE" = "waterloggedchests:chests/waterlogged_chest"
+
+["Drowned Settings"]
+	#These options will NOT apply to a Drowned that is already holding an item when spawned
+	#Range: 0.0 ~ 1.0
+	"Percent Chance of a Drowned being able to spawn holding a Waterlogged Chest" = 0.05
+	#Range: 0.0 ~ 1.0
+	"Percent Chance of a Drowned to drop the Waterlogged Chest it is holding" = 0.33
+
+["Bait Settings"]
+	#Range: 0.0 ~ 1.0
+	"Percent Chance to fish up Extra Fish when holding Worm Bait in your off hand" = 0.25
+	#Range: 0.0 ~ 1.0
+	"Percent Chance Increase for each level of Luck of the Sea" = 0.25
+	#Range: 0.0 ~ 1.0
+	"Percent Chance to consume Bait when successfully catching a fish" = 0.1
+	"Notify the player each time Bait is Consumed" = true
+	"Message to send players when Bait is Consumed" = "You've lost your bait!"
+	#If the next option is set to 0 you'll only be able to find Bait in Waterlogged Chests if the Loot Table for Waterlogged Chests is set to 1
+	#Range: 0.0 ~ 100.0
+	"Percent Chance to find Bait when harvesting Mud Blocks" = 0.1
+	#Range: 0.0 ~ 100.0
+	"Percent Chance Increase for each level of Fortune on your Main Hand Item" = 0.1
+	#Range: 0.0 ~ 100.0
+	"Percent Chance to loot Bait from a Composter if the Composter is sitting on a MUD BLOCK" = 0.8
+	#Range: 1 ~ 64
+	"Max Count that can be looted from the composter at a time" = 3
+

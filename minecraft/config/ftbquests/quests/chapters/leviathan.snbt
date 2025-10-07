@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "leviathan"
+	group: "147BCC52AEA45547"
+	id: "0622F6DAE09C7DFF"
+	order_index: 20
+	quest_links: [ ]
+	quests: [ ]
+	title: "Leviathan"
+}
