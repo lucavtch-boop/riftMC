@@ -1,6 +1,11 @@
 ServerEvents.recipes(riftMC => 
     {
 
+    riftMC.smelting
+        ('1x ae2:silicon', 'minecraft:quartz')
+    riftMC.blasting
+        ('1x ae2:silicon', 'minecraft:quartz')
+
     riftMC.shaped
         (Item.of
             ('minecraft:chest', 1),
@@ -23,6 +28,30 @@ ServerEvents.recipes(riftMC =>
         ],
         {
             A: 'ars_nouveau:blue_archwood_log'
+        },
+        )
+        riftMC.shaped
+        (Item.of
+            ('minecraft:chest', 4),
+        [
+            'AAA',
+            'A A',
+            'AAA'
+        ],
+        {
+            A: 'biomesoplenty:jacaranda_log'
+        },
+        )
+        riftMC.shaped
+        (Item.of
+            ('minecraft:chest', 1),
+        [
+            'AAA',
+            'A A',
+            'AAA'
+        ],
+        {
+            A: 'biomesoplenty:jacaranda_planks'
         },
         )
         riftMC.shaped

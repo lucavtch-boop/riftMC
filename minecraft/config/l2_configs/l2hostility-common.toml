@@ -30,15 +30,15 @@ enableStructureSpecificDatapack = true
 	dimensionFactor = 10
 	#Difficulty bonus per block from origin
 	#Range: 0.0 ~ 1000.0
-	distanceFactor = 0.01
+	distanceFactor = 0.001
 	#Chance for health/damage bonus and trait to apply
 	#Not applicable to mobs with minimum level.
 	#Range: 0.0 ~ 1.0
-	globalApplyChance = 1.0
+	globalApplyChance = 0.75
 	#Chance for trait to apply
 	#Not applicable to mobs with minimum level.
 	#Range: 0.0 ~ 1.0
-	globalTraitChance = 1.0
+	globalTraitChance = 0.5
 	#Chance to stop adding traits after adding a trait
 	#Not applicable to mobs with minimum level.
 	#Range: 0.0 ~ 1.0
@@ -46,7 +46,7 @@ enableStructureSpecificDatapack = true
 	#Allow legendary traits
 	allowLegendary = true
 	#Allow chunk section to accumulate difficulty
-	allowSectionDifficulty = true
+	allowSectionDifficulty = false
 	#Allow difficulty clearing bypass mob minimum level
 	allowBypassMinimum = true
 	#Allow level-related extra enchantment spawning
@@ -241,13 +241,13 @@ enableStructureSpecificDatapack = true
 	adaptFactor = 0.5
 	#Reflect factor per level for Reflect. 0.5 means reflect 50% damage (then scaled by level bonus)
 	#Range: 0.0 ~ 1000.0
-	reflectFactor = 0.1
+	reflectFactor = 0.05
 	#Duration in ticks for enchantments to be disabled per level for Dispell
 	#Range: 1 ~ 60000
 	dispellTime = 200
 	#Duration in seconds to set target on fire by Fiery
 	#Range: 0 ~ 3000
-	fieryTime = 5
+	fieryTime = 2
 	#Duration in ticks for Weakness
 	#Range: 0 ~ 3000
 	weakTime = 200
