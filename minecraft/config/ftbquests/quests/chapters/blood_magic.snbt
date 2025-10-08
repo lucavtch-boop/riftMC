@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "blood_magic"
+	group: "74FF90BDACFEE840"
+	icon: "bloodmagic:weakbloodorb"
+	id: "6027042EA6F51AA8"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Blood Magic"
+}

@@ -2,5 +2,7 @@
 	chapter_groups: [
 		{ id: "147BCC52AEA45547", title: "Progression" }
 		{ id: "38A719E497D38BD8", title: "Tips and Tricks" }
+		{ id: "74FF90BDACFEE840", title: "Magic and You" }
+		{ id: "0839F5A8659041E6", title: "Resource Generation" }
 	]
 }

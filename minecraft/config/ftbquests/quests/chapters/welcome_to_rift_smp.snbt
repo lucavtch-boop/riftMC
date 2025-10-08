@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "welcome_to_rift_smp"
 	group: ""
+	icon: "ars_extended_glyphs:glyph_absorption"
 	id: "33B74DF28CB5CF73"
 	order_index: 0
 	quest_links: [ ]

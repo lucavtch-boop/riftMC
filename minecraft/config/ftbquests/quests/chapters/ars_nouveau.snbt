@@ -1,0 +1,47 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ars_nouveau"
+	group: "74FF90BDACFEE840"
+	icon: "ars_nouveau:novice_spell_book"
+	id: "307BFA662F46A229"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["03D683ACE572C6E2"]
+			id: "415B796AB79EA235"
+			tasks: [{
+				id: "68DFAF488D5F5657"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2C13E7DA47D7AE0F"]
+			id: "03D683ACE572C6E2"
+			tasks: [{
+				id: "44DD287FA321DDA4"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			title: "My First Spellbook"
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			id: "2C13E7DA47D7AE0F"
+			tasks: [{
+				id: "6BC4C47E6AB0EE13"
+				item: "ars_nouveau:worn_notebook"
+				type: "item"
+			}]
+			title: "Ars Guide"
+			x: -9.5d
+			y: 1.5d
+		}
+	]
+	title: "Ars Nouveau"
+}
