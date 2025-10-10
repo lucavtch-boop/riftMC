@@ -7,6 +7,21 @@
 	id: "6027042EA6F51AA8"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "5E53F1F7C62E1950"
+		tasks: [{
+			id: "3FB4576788604754"
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "bloodmagic:guide"
+				}
+			}
+			type: "item"
+		}]
+		x: -6.0d
+		y: 0.5d
+	}]
 	title: "Blood Magic"
 }

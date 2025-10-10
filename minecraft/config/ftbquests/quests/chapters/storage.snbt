@@ -17,8 +17,8 @@
 				type: "item"
 			}]
 			title: "Drawers"
-			x: -9.5d
-			y: 1.0d
+			x: -3.0d
+			y: -0.5d
 		}
 		{
 			description: ["The 'ultimate' storage system. The Drive can hold up to 10 cells, and each cell can hold a large quantity of items. However, items that cannot stack (armours, weapons, and enchanted books) shouldn't be stored in these systems, as there is a limit of 63 unique types of items per cell. This system also requires power to use. It has it's own power generation system, but perhaps there is a way to &oburn fuels to generate power?"]
@@ -36,8 +36,8 @@
 				}
 			]
 			title: "Applied Energistics 2"
-			x: -0.5d
-			y: 1.0d
+			x: -3.5d
+			y: 3.0d
 		}
 		{
 			description: ["This is a unique storage system that doesn't require power to function and can store a large quantity of items."]
@@ -48,8 +48,8 @@
 				type: "item"
 			}]
 			title: "Occultism dimensional Storage"
-			x: -5.0d
-			y: 4.0d
+			x: -6.5d
+			y: 3.0d
 		}
 		{
 			description: ["Ars Nouveau's storage system. You'll still have a chest monster, but you can hide it in a room and let cute little wyverns deposit and withdraw the items from the chests instead of trying to find them manually. This lectern will show all items in the system, and you can even craft directly from it!"]
@@ -61,6 +61,44 @@
 			}]
 			x: -5.0d
 			y: -2.0d
+		}
+		{
+			id: "2B699D10B4661B93"
+			tasks: [{
+				id: "041512B0BB2F2251"
+				item: "dankstorage:dank_1"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			id: "390BC2191C427EDF"
+			tasks: [{
+				id: "7CB6793FAFACD18E"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			title: "Sophisticated Backpacks"
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			id: "08F105C05C43F52E"
+			tasks: [{
+				id: "3C8C927D9F0440D4"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			title: "Sophisticated Storage"
+			x: -7.0d
+			y: -0.5d
 		}
 	]
 	title: "Storage"

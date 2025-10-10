@@ -13,6 +13,21 @@
 	id: "10F75373E7D55F44"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "414157193B7B5F24"
+		tasks: [{
+			id: "1D8934003EDB594F"
+			item: {
+				Count: 1
+				id: "occultism:dictionary_of_spirits"
+				tag: {
+					"modonomicon:book_id": "occultism:dictionary_of_spirits"
+				}
+			}
+			type: "item"
+		}]
+		x: -5.5d
+		y: 0.0d
+	}]
 	title: "Occultism"
 }
